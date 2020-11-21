@@ -24,9 +24,9 @@ struct Constants {
     }
 
     struct Square {
-        static let SQUARE_LOCATION_ID: String = "<# REPLACE_ME #>"
-        static let APPLICATION_ID: String  = "<# REPLACE_ME #>"
-        static let CHARGE_SERVER_HOST: String = "REPLACE_ME"
+        static let SQUARE_LOCATION_ID: String = "<# LBY1R9N301Z20 #>"
+        static let APPLICATION_ID: String  = "<# sandbox-sq0idb-TXSpkf45EwaVYoJOgyQkrQ #>"
+        static let CHARGE_SERVER_HOST: String = "https://connect.squareupsandbox.com/EAAAEPYfxfuS618Zrj9s49iHZvmRbvnwdGHPcJgMl7x3WyWpYukxcUl__rpdLXBo/v2/Payment"
         static let CHARGE_URL: String = "\(CHARGE_SERVER_HOST)/chargeForCookie"
     }
 }
